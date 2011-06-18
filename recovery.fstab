@@ -3,7 +3,7 @@
 /sdcard		vfat		/dev/block/mmcblk0p1		/dev/block/mmcblk0
 /system		ext4		/dev/block/mmcblk1p8
 /cache		ext4		/dev/block/mmcblk1p9
-/data		ext4		/dev/block/mmcblk1p10
+/data		auto		/dev/block/mmcblk1p10
 /misc 		emmc 		/dev/block/mmcblk1p3
 /boot		emmc		/dev/block/mmcblk1p7
 /recovery	emmc		/dev/block/mmcblk1p6
